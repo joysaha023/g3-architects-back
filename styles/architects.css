@@ -130,6 +130,33 @@ main > section{
 }
 
 
+/* Badge Seciton */
+
+.sect-title h4{
+    font-size: 45px;
+}
+
+.sect-title p{
+    font-size: 16px;
+    width: 586px;
+}
+
+.box-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+    margin-top: 80px;
+}
+
+.badge-box{
+    border: 1px solid black;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+
 /* responsive media query */
 @media screen and (max-width: 576px) {
     .navbar, .nav-links{
